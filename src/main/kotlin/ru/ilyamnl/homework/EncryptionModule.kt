@@ -41,7 +41,7 @@ class FileProcessorlmpl: FileProcessor {
 
         for (file in files) {
             if (file.exists()) {
-                file.copyTo(backupDir, overwrite = true)
+                file.copyTo(File(backupDir.path + "/" + file.name), overwrite = true)
             }
         }
 
@@ -53,9 +53,7 @@ class Encryptorlmpl: Encryptor {
 
     override fun encrypt(content: String): String {
 
-        return content.map { char ->
-            (char.code + 14).toChar()
-        }.joinToString("")
+        return content.map { it + 14 }.joinToString("")
 
     }
 

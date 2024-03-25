@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Homework 5 - Cycles.kt&#10;&#10;All done!">
-      <change afterPath="$PROJECT_DIR$/encryption_test/first.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encryption_test/fiveth.txxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encryption_test/fourth.txxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encryption_test/second.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encryption_test/third.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/EncryptionModule.kt" afterDir="false" />
+    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Homework 21 - EncryptionModule.kt&#10;I hope all works and all done!">
+      <change afterPath="$PROJECT_DIR$/encryption_test/sixth.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/ItsTimeToTime.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/EncryptionModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/EncryptionModule.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -52,6 +49,7 @@
     "Kotlin.CyclesKt.executor": "Run",
     "Kotlin.DataTypesAndOperatorsKt.executor": "Run",
     "Kotlin.EncryptionModuleKt.executor": "Run",
+    "Kotlin.ItsTimeToTimeKt.executor": "Run",
     "Kotlin.OperatorsKt.executor": "Run",
     "Kotlin.VariablesKt (1).executor": "Run",
     "Kotlin.VariablesKt.executor": "Run",
@@ -82,7 +80,7 @@
       <command value="VariablesKt" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.EncryptionModuleKt">
+  <component name="RunManager" selected="Kotlin.ItsTimeToTimeKt">
     <configuration name="ConditionalOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.ConditionalOperatorsKt" />
       <module name="Kotlin_course.main" />
@@ -111,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.OperatorsKt" />
+    <configuration name="ItsTimeToTimeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.lessons.ItsTimeToTimeKt" />
       <module name="Kotlin_course.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ItsTimeToTimeKt" />
         <item itemvalue="Kotlin.EncryptionModuleKt" />
         <item itemvalue="Kotlin.CyclesKt (1)" />
         <item itemvalue="Kotlin.CyclesKt" />
         <item itemvalue="Kotlin.ConditionalOperatorsKt" />
-        <item itemvalue="Kotlin.OperatorsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +149,7 @@
       <workItem from="1711254830903" duration="7360000" />
       <workItem from="1711288751005" duration="6421000" />
       <workItem from="1711338651594" duration="8307000" />
-      <workItem from="1711372732989" duration="3711000" />
+      <workItem from="1711372732989" duration="11763000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1 - Variables.kt">
       <option name="closed" value="true" />
@@ -225,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711356024412</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Homework 21 - EncryptionModule.kt&#10;I hope all works and all done!">
+      <option name="closed" value="true" />
+      <created>1711376495484</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711376495484</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +246,7 @@
     <MESSAGE value="Homework 3 - ConditionalOperators.kt&#10;All homework done!" />
     <MESSAGE value="Lesson 5 - Cycles.kt" />
     <MESSAGE value="Homework 5 - Cycles.kt&#10;&#10;All done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 5 - Cycles.kt&#10;&#10;All done!" />
+    <MESSAGE value="Homework 21 - EncryptionModule.kt&#10;I hope all works and all done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 21 - EncryptionModule.kt&#10;I hope all works and all done!" />
   </component>
 </project>
