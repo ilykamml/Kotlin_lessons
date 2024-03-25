@@ -14,8 +14,8 @@ fun main() {
     val miniShopping = a.getNumberOfBonusPoints(399.99)
     val bigShopping = a.getNumberOfBonusPoints(147893.23)
     val getPng = a.getDocType("png")
-    val getTempInC = a.tempConversion(50.0, 'F')
-    val getTempInF = a.tempConversion(10.0, 'C')
+    val getTempInC = a.tempConversion(50.0, "F")
+    val getTempInF = a.tempConversion(10.0, "C")
     val whatIShouldWearOnASun = a.getClothesForAWeather(5506)
     val whatIShouldWearOnAPlusTenTemp = a.getClothesForAWeather(10)
     val whatCanIWatchWithMyFamily = a.getMovieCategory(9)
@@ -84,20 +84,20 @@ class ConditionalOperatorsHomework {
 
     fun getDocType(fileExtension: String): String {
 
-        return when (fileExtension) {
-            "txt" -> "Текстовый документ"
-            "png" -> "Изображение"
-            "xlsx" -> "Таблица"
+        return when (fileExtension.lowercase()) {
+            "txt", "doc", "docx" -> "Текстовый документ"
+            "png", "jpg", "jpeg" -> "Изображение"
+            "xlsx", "xls", "ods" -> "Таблица"
             else -> "Неизвестный тип"
         }
 
     }
     
-    fun tempConversion(temp: Double, unit: Char): String {
+    fun tempConversion(temp: Double, unit: String): String {
 
-        return if ((unit == 'C' && temp < -273.15) || (unit == 'F' && temp < -459.67)) throw Exception("Extra low temperature")
-        else if (unit == 'C') String.format("%.2f F", 32 + temp * 1.8)
-        else if (unit == 'F') String.format("%.2f C", (temp - 32) / 1.8)
+        return if ((unit == "C" && temp < -273.15) || (unit == "F" && temp < -459.67)) throw Exception("Extra low temperature")
+        else if (unit.uppercase() == "C") String.format("%.2f F", 32 + temp * 1.8)
+        else if (unit.uppercase() == "F") String.format("%.2f C", (temp - 32) / 1.8)
         else throw Exception("Wrong unit")
 
     }
