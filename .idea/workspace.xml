@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Lesson 2 - DataTypesAndOperators.kt&#10;Homework 2 - Operators.kt&#10;All Done!">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/ConditionalOperators.kt" afterDir="false" />
+    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Lesson 5 - Cycles.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/Cycles.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,28 +38,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build Kotlin_course.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.DataTypesAndOperatorsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.OperatorsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.VariablesKt (1).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.VariablesKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Developing/Kotlin_course/src/main/kotlin/Main.kt&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build Kotlin_course.executor": "Run",
+    "Kotlin.ConditionalOperatorsKt.executor": "Run",
+    "Kotlin.CyclesKt (1).executor": "Run",
+    "Kotlin.CyclesKt.executor": "Run",
+    "Kotlin.DataTypesAndOperatorsKt.executor": "Run",
+    "Kotlin.OperatorsKt.executor": "Run",
+    "Kotlin.VariablesKt (1).executor": "Run",
+    "Kotlin.VariablesKt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Developing/Kotlin_course/src/main/kotlin/Main.kt",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Developing\Kotlin_course\src\main\kotlin\Lessons" />
@@ -72,7 +75,28 @@
       <command value="VariablesKt" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.OperatorsKt">
+  <component name="RunManager" selected="Kotlin.CyclesKt (1)">
+    <configuration name="ConditionalOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.ConditionalOperatorsKt" />
+      <module name="Kotlin_course.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclesKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.CyclesKt" />
+      <module name="Kotlin_course.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.lessons.CyclesKt" />
+      <module name="Kotlin_course.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.OperatorsKt" />
       <module name="Kotlin_course.main" />
@@ -87,18 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariablesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.lessons.VariablesKt" />
-      <module name="Kotlin_course.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CyclesKt (1)" />
+        <item itemvalue="Kotlin.CyclesKt" />
+        <item itemvalue="Kotlin.ConditionalOperatorsKt" />
         <item itemvalue="Kotlin.OperatorsKt" />
         <item itemvalue="Kotlin.VariablesKt (1)" />
-        <item itemvalue="Kotlin.VariablesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +142,8 @@
       <workItem from="1711164712436" duration="9168000" />
       <workItem from="1711200272583" duration="3430000" />
       <workItem from="1711254830903" duration="7360000" />
-      <workItem from="1711288751005" duration="1270000" />
+      <workItem from="1711288751005" duration="6421000" />
+      <workItem from="1711338651594" duration="7405000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1 - Variables.kt">
       <option name="closed" value="true" />
@@ -149,7 +169,39 @@
       <option name="project" value="LOCAL" />
       <updated>1711202865768</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson 3 - ConditionalOperators.kt">
+      <option name="closed" value="true" />
+      <created>1711290158350</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711290158350</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Lesson 3 - ConditionalOperators.kt&#10;All homework done!">
+      <option name="closed" value="true" />
+      <created>1711294731142</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711294731142</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Homework 3 - ConditionalOperators.kt&#10;All homework done!">
+      <option name="closed" value="true" />
+      <created>1711340086827</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711340086827</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Lesson 5 - Cycles.kt">
+      <option name="closed" value="true" />
+      <created>1711354227001</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711354227001</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +211,10 @@
     <MESSAGE value="Lesson 1 - Variables.kt" />
     <MESSAGE value="Homework 1 - Variables.kt&#10;Not done" />
     <MESSAGE value="Lesson 2 - DataTypesAndOperators.kt&#10;Homework 2 - Operators.kt&#10;All Done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 2 - DataTypesAndOperators.kt&#10;Homework 2 - Operators.kt&#10;All Done!" />
+    <MESSAGE value="Lesson 3 - ConditionalOperators.kt" />
+    <MESSAGE value="Lesson 3 - ConditionalOperators.kt&#10;All homework done!" />
+    <MESSAGE value="Homework 3 - ConditionalOperators.kt&#10;All homework done!" />
+    <MESSAGE value="Lesson 5 - Cycles.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 5 - Cycles.kt" />
   </component>
 </project>
