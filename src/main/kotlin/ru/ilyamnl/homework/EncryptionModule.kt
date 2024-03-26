@@ -1,6 +1,7 @@
 package ru.ilyamnl.homework
 
 import java.io.File
+import kotlin.math.abs
 
 fun main() {
 
@@ -22,8 +23,15 @@ class FileProcessorlmpl: FileProcessor {
 
     override fun findFilesByExtension(extension: String, directory: File): List<File> {
 
+//        return if (directory.isDirectory) {
+//            directory.listFiles {_, name -> name.endsWith(".$extension")}?.toList() ?: emptyList()
+//        } else emptyList()
+
         return if (directory.isDirectory) {
-            directory.listFiles {_, name -> name.endsWith(".$extension")}?.toList() ?: emptyList()
+            directory.walk()
+                .filter { it.isFile && it.extension == extension }
+                .map { it.absoluteFile }
+                .toList()
         } else emptyList()
 
     }
@@ -43,6 +51,11 @@ class FileProcessorlmpl: FileProcessor {
             if (file.exists()) {
                 file.copyTo(File(backupDir.path + "/" + file.name), overwrite = true)
             }
+//        }
+//        val absoluteFilePath = backupDir.absolutePath
+//        if (!File(absoluteFilePath).exists()) File(absoluteFilePath).mkdirs()
+//        files.forEach {
+//
         }
 
     }
