@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Homework 21 - EncryptionModule.kt&#10;I hope all works and all done!">
-      <change afterPath="$PROJECT_DIR$/encryption_test/sixth.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/ItsTimeToTime.kt" afterDir="false" />
+    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Lesson 22 - ItsTimeToTime.kt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/EncryptionModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/EncryptionModule.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +28,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ilykamml"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1831d2cd-5776-4f77-b422-05752bd74928" />
+        <option name="url" value="https://github.com/ilykamml/Kotlin_lessons" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -41,33 +52,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build Kotlin_course.executor": "Run",
-    "Kotlin.ConditionalOperatorsKt.executor": "Run",
-    "Kotlin.CyclesKt (1).executor": "Run",
-    "Kotlin.CyclesKt.executor": "Run",
-    "Kotlin.DataTypesAndOperatorsKt.executor": "Run",
-    "Kotlin.EncryptionModuleKt.executor": "Run",
-    "Kotlin.ItsTimeToTimeKt.executor": "Run",
-    "Kotlin.OperatorsKt.executor": "Run",
-    "Kotlin.VariablesKt (1).executor": "Run",
-    "Kotlin.VariablesKt.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Developing/Kotlin_course/src/main/kotlin/Main.kt",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build Kotlin_course.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ConditionalOperatorsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CyclesKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CyclesKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.DataTypesAndOperatorsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.EncryptionModuleKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ItsTimeToTimeKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OperatorsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.VariablesKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.VariablesKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Developing/Kotlin_course/src/main/kotlin/Main.kt&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Developing\Kotlin_course\src\main\kotlin\Lessons" />
@@ -149,7 +160,8 @@
       <workItem from="1711254830903" duration="7360000" />
       <workItem from="1711288751005" duration="6421000" />
       <workItem from="1711338651594" duration="8307000" />
-      <workItem from="1711372732989" duration="11763000" />
+      <workItem from="1711372732989" duration="12036000" />
+      <workItem from="1711542403691" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1 - Variables.kt">
       <option name="closed" value="true" />
@@ -231,11 +243,30 @@
       <option name="project" value="LOCAL" />
       <updated>1711376495484</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Lesson 22 - ItsTimeToTime.kt">
+      <option name="closed" value="true" />
+      <created>1711385852893</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711385852893</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 1 - Variables.kt" />
@@ -247,6 +278,7 @@
     <MESSAGE value="Lesson 5 - Cycles.kt" />
     <MESSAGE value="Homework 5 - Cycles.kt&#10;&#10;All done!" />
     <MESSAGE value="Homework 21 - EncryptionModule.kt&#10;I hope all works and all done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 21 - EncryptionModule.kt&#10;I hope all works and all done!" />
+    <MESSAGE value="Lesson 22 - ItsTimeToTime.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 22 - ItsTimeToTime.kt" />
   </component>
 </project>
