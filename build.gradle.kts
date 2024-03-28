@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation("com.google.code.gson:gson:2.10.1") // импорт класса для работы с JSON
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
