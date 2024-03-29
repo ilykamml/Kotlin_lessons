@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Lesson 23 - Enum.kt and Json.kt">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/ArraysListsSets.kt" afterDir="false" />
+    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Homework 21 - EncryptionModule.kt&#10;I hope all works and all done!">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyamml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/ArraysListsSets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/ArraysListsSets.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,23 +24,6 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Kotlin_course" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -45,20 +34,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;ilykamml&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="1831d2cd-5776-4f77-b422-05752bd74928" />
-        <option name="url" value="https://github.com/ilykamml/Kotlin_lessons" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build Kotlin_course.executor": "Run",
+    "Gradle.Build Kotlin_lessons.executor": "Run",
     "Kotlin.ArraysListsSetsKt.executor": "Run",
     "Kotlin.ConditionalOperatorsKt.executor": "Run",
     "Kotlin.CyclesKt (1).executor": "Run",
@@ -83,8 +59,6 @@
     "Kotlin.DataTypesAndOperatorsKt.executor": "Run",
     "Kotlin.EncryptionModuleKt.executor": "Run",
     "Kotlin.ItsTimeToTimeKt.executor": "Run",
-    "Kotlin.JsonAndEnumKt.executor": "Run",
-    "Kotlin.JsonKt.executor": "Run",
     "Kotlin.OperatorsKt.executor": "Run",
     "Kotlin.VariablesKt (1).executor": "Run",
     "Kotlin.VariablesKt.executor": "Run",
@@ -100,6 +74,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Developing/Kotlin_course/src/main/kotlin/Main.kt",
+    "settings.editor.selected.configurable": "proofread",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -130,6 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CyclesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.lessons.CyclesKt" />
+      <module name="Kotlin_course.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EncryptionModuleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.EncryptionModuleKt" />
       <module name="Kotlin_course.main" />
@@ -144,20 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.lessons.JsonKt" />
-      <module name="Kotlin_course.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.ArraysListsSetsKt" />
-        <item itemvalue="Kotlin.JsonKt" />
         <item itemvalue="Kotlin.ItsTimeToTimeKt" />
         <item itemvalue="Kotlin.EncryptionModuleKt" />
         <item itemvalue="Kotlin.CyclesKt (1)" />
+        <item itemvalue="Kotlin.CyclesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -184,11 +159,7 @@
       <workItem from="1711254830903" duration="7360000" />
       <workItem from="1711288751005" duration="6421000" />
       <workItem from="1711338651594" duration="8307000" />
-      <workItem from="1711372732989" duration="12036000" />
-      <workItem from="1711542403691" duration="36000" />
-      <workItem from="1711625561691" duration="82000" />
-      <workItem from="1711637411906" duration="9236000" />
-      <workItem from="1711687817413" duration="2424000" />
+      <workItem from="1711372732989" duration="11763000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1 - Variables.kt">
       <option name="closed" value="true" />
@@ -270,46 +241,11 @@
       <option name="project" value="LOCAL" />
       <updated>1711376495484</updated>
     </task>
-    <task id="LOCAL-00011" summary="Lesson 22 - ItsTimeToTime.kt">
-      <option name="closed" value="true" />
-      <created>1711385852893</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1711385852893</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Roadmap">
-      <option name="closed" value="true" />
-      <created>1711625631596</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1711625631596</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Lesson 23 - Enum.kt and Json.kt">
-      <option name="closed" value="true" />
-      <created>1711646562061</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1711646562061</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 1 - Variables.kt" />
@@ -321,9 +257,6 @@
     <MESSAGE value="Lesson 5 - Cycles.kt" />
     <MESSAGE value="Homework 5 - Cycles.kt&#10;&#10;All done!" />
     <MESSAGE value="Homework 21 - EncryptionModule.kt&#10;I hope all works and all done!" />
-    <MESSAGE value="Lesson 22 - ItsTimeToTime.kt" />
-    <MESSAGE value="Roadmap" />
-    <MESSAGE value="Lesson 23 - Enum.kt and Json.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 23 - Enum.kt and Json.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 21 - EncryptionModule.kt&#10;I hope all works and all done!" />
   </component>
 </project>
