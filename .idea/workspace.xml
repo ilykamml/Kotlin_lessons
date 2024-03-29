@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Roadmap">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/Enum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/Json.kt" afterDir="false" />
+    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Lesson 23 - Enum.kt and Json.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/ArraysListsSets.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +76,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build Kotlin_course.executor": "Run",
+    "Kotlin.ArraysListsSetsKt.executor": "Run",
     "Kotlin.ConditionalOperatorsKt.executor": "Run",
     "Kotlin.CyclesKt (1).executor": "Run",
     "Kotlin.CyclesKt.executor": "Run",
@@ -116,7 +115,14 @@
       <command value="VariablesKt" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.JsonKt">
+  <component name="RunManager" selected="Kotlin.ArraysListsSetsKt">
+    <configuration name="ArraysListsSetsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.lessons.ArraysListsSetsKt" />
+      <module name="Kotlin_course.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CyclesKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.CyclesKt" />
       <module name="Kotlin_course.main" />
@@ -126,13 +132,6 @@
     </configuration>
     <configuration name="EncryptionModuleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.EncryptionModuleKt" />
-      <module name="Kotlin_course.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.lessons.EnumKt" />
       <module name="Kotlin_course.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ArraysListsSetsKt" />
         <item itemvalue="Kotlin.JsonKt" />
-        <item itemvalue="Kotlin.JsonAndEnumKt" />
         <item itemvalue="Kotlin.ItsTimeToTimeKt" />
         <item itemvalue="Kotlin.EncryptionModuleKt" />
         <item itemvalue="Kotlin.CyclesKt (1)" />
@@ -188,7 +187,8 @@
       <workItem from="1711372732989" duration="12036000" />
       <workItem from="1711542403691" duration="36000" />
       <workItem from="1711625561691" duration="82000" />
-      <workItem from="1711637411906" duration="8586000" />
+      <workItem from="1711637411906" duration="9236000" />
+      <workItem from="1711687817413" duration="2424000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1 - Variables.kt">
       <option name="closed" value="true" />
@@ -286,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711625631596</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Lesson 23 - Enum.kt and Json.kt">
+      <option name="closed" value="true" />
+      <created>1711646562061</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711646562061</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +323,7 @@
     <MESSAGE value="Homework 21 - EncryptionModule.kt&#10;I hope all works and all done!" />
     <MESSAGE value="Lesson 22 - ItsTimeToTime.kt" />
     <MESSAGE value="Roadmap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Roadmap" />
+    <MESSAGE value="Lesson 23 - Enum.kt and Json.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 23 - Enum.kt and Json.kt" />
   </component>
 </project>
