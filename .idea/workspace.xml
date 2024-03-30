@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Homework 6 - ArraysListsSets.kt&#10;In work" />
+    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="gitignorring workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,37 +72,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build Kotlin_course.executor": "Run",
-    "Kotlin.ArraysListsSetsKt (1).executor": "Run",
-    "Kotlin.ArraysListsSetsKt.executor": "Run",
-    "Kotlin.ConditionalOperatorsKt.executor": "Run",
-    "Kotlin.CyclesKt (1).executor": "Run",
-    "Kotlin.CyclesKt.executor": "Run",
-    "Kotlin.DataTypesAndOperatorsKt.executor": "Run",
-    "Kotlin.EncryptionModuleKt.executor": "Run",
-    "Kotlin.ItsTimeToTimeKt.executor": "Run",
-    "Kotlin.JsonAndEnumKt.executor": "Run",
-    "Kotlin.JsonKt.executor": "Run",
-    "Kotlin.OperatorsKt.executor": "Run",
-    "Kotlin.VariablesKt (1).executor": "Run",
-    "Kotlin.VariablesKt.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Developing/Kotlin_course/src/main/kotlin/Main.kt",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build Kotlin_course.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ArraysListsSetsKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ArraysListsSetsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ConditionalOperatorsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CyclesKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CyclesKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.DataTypesAndOperatorsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.EncryptionModuleKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ItsTimeToTimeKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.JsonAndEnumKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.JsonKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OperatorsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.VariablesKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.VariablesKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Developing/Kotlin_course/src/main/kotlin/Main.kt&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Developing\Kotlin_course\src\main\kotlin\Lessons" />
@@ -189,6 +191,7 @@
       <workItem from="1711687817413" duration="2424000" />
       <workItem from="1711808148737" duration="477000" />
       <workItem from="1711808634812" duration="5547000" />
+      <workItem from="1711817996047" duration="336000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1 - Variables.kt">
       <option name="closed" value="true" />
@@ -310,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711817919390</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="gitignorring workspace.xml">
+      <option name="closed" value="true" />
+      <created>1711818041443</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711818041443</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +353,7 @@
     <MESSAGE value="Lesson 23 - Enum.kt and Json.kt" />
     <MESSAGE value="Lesson 6 - ArraysListsSets.kt" />
     <MESSAGE value="Homework 6 - ArraysListsSets.kt&#10;In work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 6 - ArraysListsSets.kt&#10;In work" />
+    <MESSAGE value="gitignorring workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignorring workspace.xml" />
   </component>
 </project>
