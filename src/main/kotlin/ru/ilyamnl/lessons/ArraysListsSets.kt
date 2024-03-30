@@ -71,8 +71,20 @@ fun main() {
     list4.add(5)
     list4.removeAt(3)
     list4.remove(7)
+    list4[2] = 10
 
     for (i in list4) println(i)
+
+    println("\n\n")
+
+    for (i in list4.indices) println("$i = ${list4[i]}")
+
+    val arr7: Array<String> = arrayOf("abc", "kotlin", "jaba")
+
+    println(searchStringInArray(arr7, "jaba"))
+
+    println(arr7.any { it == "kotlin" }) // ЗАПОМНИТЬ
+
 
 }
 
@@ -112,5 +124,12 @@ fun arrayReverse(arr: Array<Int>): Array<Int> {
     for (i in arr.size - 1 downTo 0) reversedArray[arr.size - i - 1] = arr[i]
 
     return reversedArray
+
+}
+
+fun searchStringInArray(arr: Array<String>, str: String): Boolean {
+
+    for (i in arr) if (str == i) return true
+    return false
 
 }
