@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Lesson 23 - Enum.kt and Json.kt">
+    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Lesson 6 - ArraysListsSets.kt">
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/ArraysListsSets.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/ArraysListsSets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/ArraysListsSets.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,7 @@
       <command value="VariablesKt" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ArraysListsSetsKt">
+  <component name="RunManager" selected="Kotlin.ArraysListsSetsKt (1)">
     <configuration name="ArraysListsSetsKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.ArraysListsSetsKt" />
       <module name="Kotlin_course.main" />
@@ -155,8 +154,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ArraysListsSetsKt" />
         <item itemvalue="Kotlin.ArraysListsSetsKt (1)" />
+        <item itemvalue="Kotlin.ArraysListsSetsKt" />
         <item itemvalue="Kotlin.JsonKt" />
         <item itemvalue="Kotlin.ItsTimeToTimeKt" />
         <item itemvalue="Kotlin.EncryptionModuleKt" />
@@ -192,7 +191,7 @@
       <workItem from="1711637411906" duration="9236000" />
       <workItem from="1711687817413" duration="2424000" />
       <workItem from="1711808148737" duration="477000" />
-      <workItem from="1711808634812" duration="1788000" />
+      <workItem from="1711808634812" duration="4449000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1 - Variables.kt">
       <option name="closed" value="true" />
@@ -298,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711646562061</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Lesson 6 - ArraysListsSets.kt">
+      <option name="closed" value="true" />
+      <created>1711810637358</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711810637358</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +335,7 @@
     <MESSAGE value="Lesson 22 - ItsTimeToTime.kt" />
     <MESSAGE value="Roadmap" />
     <MESSAGE value="Lesson 23 - Enum.kt and Json.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 23 - Enum.kt and Json.kt" />
+    <MESSAGE value="Lesson 6 - ArraysListsSets.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 6 - ArraysListsSets.kt" />
   </component>
 </project>
