@@ -93,6 +93,74 @@ fun main() {
     }
 
     println(list9.filter { it % 2 == 0 })
+    println("\n\n")
+
+    // SETS
+
+    val set1: Set<Int> = setOf()
+
+    val set2 = setOf(1, 2, 3)
+
+    val set3 = mutableSetOf("Kotlin", "Java", "Scala").apply {
+        add("Swift")
+        add("Go")
+    }
+
+    val set4 = mutableSetOf(1, 3, 2, 5, 6).apply {
+        remove(2)
+    }
+
+    for (i in set4) println(i)
+
+    println(set3.any { it == "Java" })
+
+    val set5 = setOf("Python", "Kotlin", "C++", "Django", "Java")
+
+    val set6 = set3.toSet() + set5
+
+    val set7 = set3.union(set5).toSet()
+
+    val set8 = setUnion(set3, set5)
+
+    println("$set6 \n$set7\n$set8")
+
+    val set9 = set3.intersect(set5).toSet()
+
+    val set10 = setIntersect(set3, set5)
+
+    println("$set9\n$set10")
+
+    val set11 = set3.subtract(set5)
+
+    val set12 = set3 - set5
+
+    val set13: Set<String> = setSubtract(set3.toSet(), set5)
+
+    println("$set11\n$set12\n$set13")
+
+}
+
+fun setSubtract(set1: Set<String>, set2: Set<String>): Set<String> {
+
+    val resultSet = mutableSetOf<String>()
+
+    for (i in set1) if (i !in set2) resultSet.add(i)
+
+    return resultSet.toSet()
+
+}
+
+fun setIntersect(set1: Set<String>, set2: Set<String>): Set<String> {
+
+    val resultSet = mutableSetOf<String>()
+
+    if (set1.size < set2.size) {
+        for (i in set1) if (i in set2) resultSet.add(i)
+    } else {
+        for (i in set2) if (i in set1) resultSet.add(i)
+    }
+
+    return resultSet.toSet()
 
 }
 
@@ -127,5 +195,16 @@ fun simpleListSort(list: List<Int>): List<Int> {
     }
 
     return tempList.toList()
+
+}
+
+fun setUnion(set1: Set<String>, set2: Set<String>): Set<String> {
+
+    val resultSet: MutableSet<String> = mutableSetOf()
+
+    for (i in set1) resultSet.add(i)
+    for (i in set2) resultSet.add(i)
+
+    return resultSet.toSet()
 
 }
