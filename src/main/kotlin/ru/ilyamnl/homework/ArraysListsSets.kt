@@ -21,6 +21,8 @@ fun main() {
 
     val arr6: IntArray = intArrayOf(1, 3, 6, 3, 7, 43, 4, 6, 4)
     val arr7 = IntArray(arr6.size)
+    val arr7_1 = IntArray(arr6.size) { i -> arr6[i] }
+    println(arr7_1.joinToString())
     var index = 0
 
     for (i in arr6) arr7[index++] = i
