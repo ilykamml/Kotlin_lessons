@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Lesson 7 - PairsAndMaps.kt">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/EnumsAndJsons.kt" afterDir="false" />
+    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Homework 23 - EnumsAndJsons.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/InventoryManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/UnitTestsExamples.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/lessons/InventoryManagerTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/EnumsAndJsons.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/EnumsAndJsons.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -73,45 +78,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build Kotlin_course.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ArraysListsSetsKt (1).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ArraysListsSetsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ConditionalOperatorsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.CyclesKt (1).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.CyclesKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.DataTypesAndOperatorsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.EncryptionModuleKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.EnumsAndJsonsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ItsTimeToTimeKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.JsonAndEnumKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.JsonKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.OperatorsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.PairsAndMapsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.PairsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.VariablesKt (1).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.VariablesKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Developing/Kotlin_course/src/main/kotlin/Main.kt&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build Kotlin_course.executor": "Run",
+    "Gradle.InventoryManagerTest.addExtraItem.executor": "Run",
+    "Gradle.InventoryManagerTest.addItem.executor": "Run",
+    "Kotlin.ArraysListsSetsKt (1).executor": "Run",
+    "Kotlin.ArraysListsSetsKt.executor": "Run",
+    "Kotlin.ConditionalOperatorsKt.executor": "Run",
+    "Kotlin.CyclesKt (1).executor": "Run",
+    "Kotlin.CyclesKt.executor": "Run",
+    "Kotlin.DataTypesAndOperatorsKt.executor": "Run",
+    "Kotlin.EncryptionModuleKt.executor": "Run",
+    "Kotlin.EnumsAndJsonsKt.executor": "Run",
+    "Kotlin.ItsTimeToTimeKt.executor": "Run",
+    "Kotlin.JsonAndEnumKt.executor": "Run",
+    "Kotlin.JsonKt.executor": "Run",
+    "Kotlin.OperatorsKt.executor": "Run",
+    "Kotlin.PairsAndMapsKt.executor": "Run",
+    "Kotlin.PairsKt.executor": "Run",
+    "Kotlin.VariablesKt (1).executor": "Run",
+    "Kotlin.VariablesKt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Developing/Kotlin_course/src/main/kotlin/Main.kt",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Developing\Kotlin_course\src\main\kotlin\Lessons" />
       <recent name="D:\Developing\Kotlin_course\src\main\kotlin" />
       <recent name="D:\Developing\Kotlin_course\src\main\kotlin\ru\ilyamnl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.ilyamnl.lessons" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -119,7 +134,55 @@
       <command value="VariablesKt" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.EnumsAndJsonsKt">
+  <component name="RunManager" selected="Gradle.InventoryManagerTest.addExtraItem">
+    <configuration name="InventoryManagerTest.addExtraItem" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.ilyamnl.lessons.InventoryManagerTest.addExtraItem&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="InventoryManagerTest.addItem" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.ilyamnl.lessons.InventoryManagerTest.addItem&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ArraysListsSetsKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.ArraysListsSetsKt" />
       <module name="Kotlin_course.main" />
@@ -127,22 +190,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysListsSetsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.lessons.ArraysListsSetsKt" />
-      <module name="Kotlin_course.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EnumsAndJsonsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.EnumsAndJsonsKt" />
-      <module name="Kotlin_course.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.lessons.JsonKt" />
       <module name="Kotlin_course.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.InventoryManagerTest.addExtraItem" />
+        <item itemvalue="Gradle.InventoryManagerTest.addItem" />
         <item itemvalue="Kotlin.EnumsAndJsonsKt" />
         <item itemvalue="Kotlin.PairsAndMapsKt" />
         <item itemvalue="Kotlin.ArraysListsSetsKt (1)" />
-        <item itemvalue="Kotlin.ArraysListsSetsKt" />
-        <item itemvalue="Kotlin.JsonKt" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +250,7 @@
       <workItem from="1711879838743" duration="4738000" />
       <workItem from="1711952952707" duration="5556000" />
       <workItem from="1712031472825" duration="40000" />
-      <workItem from="1712061823908" duration="6528000" />
+      <workItem from="1712061823908" duration="13539000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1 - Variables.kt">
       <option name="closed" value="true" />
@@ -363,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711954856239</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Homework 23 - EnumsAndJsons.kt">
+      <option name="closed" value="true" />
+      <created>1712068905198</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712068905198</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,6 +457,7 @@
     <MESSAGE value="Homework 6 - ArraysListsSets.kt" />
     <MESSAGE value="Homework 6 - ArraysListsSets.kt&#10;Some improvements" />
     <MESSAGE value="Lesson 7 - PairsAndMaps.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 7 - PairsAndMaps.kt" />
+    <MESSAGE value="Homework 23 - EnumsAndJsons.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 23 - EnumsAndJsons.kt" />
   </component>
 </project>
