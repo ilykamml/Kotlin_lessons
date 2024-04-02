@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="no more gitignorring workspace.xml">
+    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Lesson 7 - PairsAndMaps.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/EnumsAndJsons.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/ArraysListsSets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/ArraysListsSets.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,10 +83,13 @@
     &quot;Kotlin.CyclesKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.DataTypesAndOperatorsKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.EncryptionModuleKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.EnumsAndJsonsKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.ItsTimeToTimeKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.JsonAndEnumKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.JsonKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.OperatorsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.PairsAndMapsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.PairsKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.VariablesKt (1).executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.VariablesKt.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -116,7 +119,7 @@
       <command value="VariablesKt" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ArraysListsSetsKt (1)">
+  <component name="RunManager" selected="Kotlin.EnumsAndJsonsKt">
     <configuration name="ArraysListsSetsKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.ArraysListsSetsKt" />
       <module name="Kotlin_course.main" />
@@ -131,15 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncryptionModuleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.EncryptionModuleKt" />
-      <module name="Kotlin_course.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItsTimeToTimeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.lessons.ItsTimeToTimeKt" />
+    <configuration name="EnumsAndJsonsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.EnumsAndJsonsKt" />
       <module name="Kotlin_course.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,13 +148,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PairsAndMapsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.lessons.PairsAndMapsKt" />
+      <module name="Kotlin_course.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.EnumsAndJsonsKt" />
+        <item itemvalue="Kotlin.PairsAndMapsKt" />
         <item itemvalue="Kotlin.ArraysListsSetsKt (1)" />
         <item itemvalue="Kotlin.ArraysListsSetsKt" />
         <item itemvalue="Kotlin.JsonKt" />
-        <item itemvalue="Kotlin.ItsTimeToTimeKt" />
-        <item itemvalue="Kotlin.EncryptionModuleKt" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +196,12 @@
       <workItem from="1711808148737" duration="477000" />
       <workItem from="1711808634812" duration="5547000" />
       <workItem from="1711817996047" duration="652000" />
-      <workItem from="1711863880199" duration="310000" />
+      <workItem from="1711863880199" duration="1716000" />
+      <workItem from="1711878423137" duration="1405000" />
+      <workItem from="1711879838743" duration="4738000" />
+      <workItem from="1711952952707" duration="5556000" />
+      <workItem from="1712031472825" duration="40000" />
+      <workItem from="1712061823908" duration="6528000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1 - Variables.kt">
       <option name="closed" value="true" />
@@ -331,7 +339,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711818599296</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Homework 6 - ArraysListsSets.kt">
+      <option name="closed" value="true" />
+      <created>1711866356330</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711866356330</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Homework 6 - ArraysListsSets.kt&#10;Some improvements">
+      <option name="closed" value="true" />
+      <created>1711953557362</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711953557362</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Lesson 7 - PairsAndMaps.kt">
+      <option name="closed" value="true" />
+      <created>1711954856239</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711954856239</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +397,9 @@
     <MESSAGE value="Homework 6 - ArraysListsSets.kt&#10;In work" />
     <MESSAGE value="gitignorring workspace.xml" />
     <MESSAGE value="no more gitignorring workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="no more gitignorring workspace.xml" />
+    <MESSAGE value="Homework 6 - ArraysListsSets.kt" />
+    <MESSAGE value="Homework 6 - ArraysListsSets.kt&#10;Some improvements" />
+    <MESSAGE value="Lesson 7 - PairsAndMaps.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 7 - PairsAndMaps.kt" />
   </component>
 </project>
