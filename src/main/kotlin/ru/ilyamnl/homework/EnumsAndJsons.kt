@@ -126,7 +126,7 @@ fun main() {
         LocalDateTime.now().minusYears(1).minusDays(39).withHour(12).withMinute(0),
         Critically.LOW,
         "Ilya",
-        Risk.LOW,
+        Risk.HIGH,
         runs,
         steps
         )
@@ -249,7 +249,7 @@ fun main() {
         LocalDateTime.now().minusYears(1).minusDays(39).withHour(12).withMinute(0),
         Critically.HIGH,
         "Ilya",
-        Risk.LOW,
+        Risk.MIDDLE,
         runs2,
         steps2
     )
@@ -367,7 +367,7 @@ fun main() {
         LocalDateTime.now().minusYears(1).minusDays(39).withHour(12).withMinute(0),
         Critically.LOW,
         "Ilya",
-        Risk.LOW,
+        Risk.HIGH,
         runs3,
         steps3
     )
@@ -375,7 +375,7 @@ fun main() {
     val fourCase = TestCase(
         "empty_case",
         "is app exists?",
-        LocalDateTime.now().minusDays(24),
+        LocalDateTime.now().minusDays(64),
         Critically.LOW,
         "Ilya",
         Risk.HIGH,
@@ -387,10 +387,12 @@ fun main() {
 
 
     println(gson.toJson(firstCase))
+    println(gson.fromJson(gson.toJson(firstCase), TestCase::class.java))
 
     val testCases = listOf(firstCase, secondCase, thirdCase)
 
-    println(getFailureTestsById(testCases, "0.7"))
+//    println(getFailureTestsById(testCases, "0.7"))
+    getFailureTestsById(testCases, "0.7").forEach { testCase -> println("${testCase.name} - он упал в прогоне 0.7") }
 
     println("%.2f".format(getSkippedTestPercentage(testCases, "0.4")) + " %")
 
@@ -450,24 +452,28 @@ class LocalDateTimeDeserializer : JsonDeserializer<LocalDateTime> {
     }
 }
 
-fun getFailureTestsById(testCases: List<TestCase>, id: String): List<TestRun> {
+fun getFailureTestsById(testCases: List<TestCase>, id: String): List<TestCase> {
 
-    val failureRuns = mutableListOf<TestRun>()
+    val failureCases = mutableListOf<TestCase>()
 
-    testCases.forEach {
-        it.runs.forEach { run ->
-            if (run.runId == id && run.result == RunResult.FAILURE) failureRuns.add(run)
+    testCases.forEach { testCase ->
+        testCase.runs.forEach { run ->
+            if (run.runId == id && run.result == RunResult.FAILURE) failureCases.add(testCase)
         }
     }
 
-    return failureRuns
+    return failureCases
 
 }
 
 fun getSkippedTestPercentage(testCases: List<TestCase>, id: String): Double {
 
+    if (testCases.isEmpty()) return 0.0
+
     val skipCount = testCases.count { testCase ->
-        testCase.runs.find { it.runId == id }?.result == RunResult.SKIPPED
+        testCase.runs.find { it.runId == id }?.let {
+            it.result == RunResult.SKIPPED
+        } ?: true
     }.toDouble()
 
     return (skipCount / testCases.size.toDouble() ) * 100.0
@@ -476,14 +482,19 @@ fun getSkippedTestPercentage(testCases: List<TestCase>, id: String): Double {
 
 fun fixRiskField(testCase: TestCase): TestCase {
 
-    return if (isItHighRisk(testCase)) {
-        testCase.copy(risk = Risk.HIGH)
-    } else if (isItMiddleRisk(testCase)) {
-        testCase.copy(risk = Risk.MIDDLE)
-    } else if (isItLowRisk(testCase)) {
-        testCase.copy(risk = Risk.LOW)
-    } else {
-        testCase
+    return when {
+        isItHighRisk(testCase) -> {
+            testCase.copy(risk = Risk.HIGH)
+        }
+        isItMiddleRisk(testCase) -> {
+            testCase.copy(risk = Risk.MIDDLE)
+        }
+        isItLowRisk(testCase) -> {
+            testCase.copy(risk = Risk.LOW)
+        }
+        else -> {
+            testCase
+        }
     }
 
 }
@@ -523,18 +534,12 @@ fun isItLowRisk(testCase: TestCase): Boolean {
 
 fun getLastFailure(testCase: TestCase): LocalDateTime? {
 
-    testCase.runs.reversed().forEach { run ->
-        if (run.result == RunResult.FAILURE) return run.runDateTime
-    }
-    return null
+    return testCase.runs.findLast { it.result == RunResult.FAILURE }?.runDateTime
 
 }
 
 fun getLastDefect(testCase: TestCase): LocalDateTime? {
 
-    testCase.runs.reversed().forEach { run ->
-        if (run.defectLink == null) return run.runDateTime
-    }
-    return null
+    return testCase.runs.findLast { it.defectLink != null }?.runDateTime
 
 }
