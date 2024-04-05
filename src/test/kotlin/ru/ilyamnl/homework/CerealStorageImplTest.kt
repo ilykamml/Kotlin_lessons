@@ -2,21 +2,22 @@ package ru.ilyamnl.homework
 
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions
-import org.junit.jupiter.api.BeforeEach
-import kotlin.test.assertEquals
 
 class CerealStorageImplTest {
     private val defaultContainerManager: CerealStorage = CerealStorageImpl(20f, 60f)
+
     @Test
     fun getContainerCapacity() {
-        Assertions.assertEquals(20f, defaultContainerManager.containerCapacity,
-            "Container capacity must be 20f")
+        Assertions.assertEquals(
+            20f, defaultContainerManager.containerCapacity,
+            "Container capacity must be 20f"
+        )
     }
 
     @Test
     fun `should throw IllegalArgumentException if container capacity negative`() {
         Assertions.assertThrows(IllegalArgumentException::class.java)
-            { CerealStorageImpl(-20f, 60f) }
+        { CerealStorageImpl(-20f, 60f) }
     }
 
     @Test
@@ -26,8 +27,10 @@ class CerealStorageImplTest {
 
     @Test
     fun getStorageCapacity() {
-        Assertions.assertEquals(60f, defaultContainerManager.storageCapacity,
-            "Container capacity must be 60f")
+        Assertions.assertEquals(
+            60f, defaultContainerManager.storageCapacity,
+            "Container capacity must be 60f"
+        )
     }
 
     @Test
@@ -48,10 +51,10 @@ class CerealStorageImplTest {
     }
 
     @Test
-    fun `add extra cereal and get some back`() {
-        defaultContainerManager.addCereal(Cereal.RICE, 18f)
-        defaultContainerManager.addCereal(Cereal.PEAS, 12f)
-        defaultContainerManager.addCereal(Cereal.BULGUR, 9f)
+    fun `add extra cereal and get some back`() : Unit = with(defaultContainerManager) {
+            addCereal(Cereal.RICE, 18f)
+            addCereal(Cereal.PEAS, 12f)
+            addCereal(Cereal.BULGUR, 9f)
         Assertions.assertEquals(5f, defaultContainerManager.addCereal(Cereal.RICE, 7f), 0.1f)
     }
 
@@ -188,7 +191,8 @@ class CerealStorageImplTest {
     fun testToString() {
         defaultContainerManager.addCereal(Cereal.RICE, 15f)
         defaultContainerManager.addCereal(Cereal.BUCKWHEAT, 1.3f)
-        Assertions.assertEquals("In our containers:\nГречка: 1,30 tons\nРис: 15,00 tons"
-            , defaultContainerManager.toString())
+        Assertions.assertEquals(
+            "In our containers:\nГречка: 1,30 tons\nРис: 15,00 tons", defaultContainerManager.toString()
+        )
     }
 }

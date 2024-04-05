@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Lesson 7 - PairsAndMaps.kt">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/CerealStorage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/CerealStorageImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/homework/CerealStorageImplTest.kt" afterDir="false" />
+    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Homework 24 - CerealStorageImplTest.kt&#10;Also created interface CerealStorage and class CerealStorageImpl">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/homework/CerealStorageImplTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/homework/CerealStorageImplTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +61,12 @@
     &quot;assignee&quot;: &quot;ilykamml&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="1831d2cd-5776-4f77-b422-05752bd74928" />
-        <option name="url" value="https://github.com/ilykamml/Kotlin_lessons" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ilykamml/Kotlin_lessons",
+    "accountId": "1831d2cd-5776-4f77-b422-05752bd74928"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -93,7 +90,7 @@
     "Gradle.CerealStorageImplTest.bring a negative amount of cereal.executor": "Coverage",
     "Gradle.CerealStorageImplTest.bring a new container to someone's place.executor": "Run",
     "Gradle.CerealStorageImplTest.dont remove filled container.executor": "Run",
-    "Gradle.CerealStorageImplTest.executor": "Coverage",
+    "Gradle.CerealStorageImplTest.executor": "Run",
     "Gradle.CerealStorageImplTest.get amount if field doesnt exists.executor": "Coverage",
     "Gradle.CerealStorageImplTest.get amount with overflow.executor": "Run",
     "Gradle.CerealStorageImplTest.get cereal from non exist container.executor": "Run",
@@ -147,7 +144,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Developing/Kotlin_course/src/main/kotlin/Main.kt",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "C:\\Users\\Ilya\\.gradle"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -306,7 +309,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-temurin-17.0.10-4caba194b151-b3785831" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -342,7 +346,8 @@
       <workItem from="1712061823908" duration="15709000" />
       <workItem from="1712139184512" duration="3007000" />
       <workItem from="1712234325393" duration="3456000" />
-      <workItem from="1712313027816" duration="9940000" />
+      <workItem from="1712313027816" duration="10551000" />
+      <workItem from="1712329330300" duration="6839000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1 - Variables.kt">
       <option name="closed" value="true" />
@@ -536,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712141600743</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Homework 24 - CerealStorageImplTest.kt&#10;Also created interface CerealStorage and class CerealStorageImpl">
+      <option name="closed" value="true" />
+      <created>1712323128076</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1712323128076</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +589,8 @@
     <MESSAGE value="Homework 23 - EnumsAndJsons.kt&#10;Some improvements" />
     <MESSAGE value="Lesson 24 - InventoryManagerTest.kt" />
     <MESSAGE value="Lesson 7 - PairsAndMaps.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 7 - PairsAndMaps.kt" />
+    <MESSAGE value="Homework 24 - CerealStorageImplTest.kt&#10;Also created interface CerealStorage and class CerealStorageImpl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 24 - CerealStorageImplTest.kt&#10;Also created interface CerealStorage and class CerealStorageImpl" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kotlin_course$CerealStorageImplTest_get_amount_if_field_doesnt_exists.ic" NAME="CerealStorageImplTest.get amount if field doesnt exists Coverage Results" MODIFIED="1712320805771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
