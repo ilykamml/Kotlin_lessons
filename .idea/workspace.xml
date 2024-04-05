@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Lesson 24 - InventoryManagerTest.kt">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/PairsAndMaps.kt" afterDir="false" />
+    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Lesson 7 - PairsAndMaps.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/CerealStorage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/CerealStorageImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/homework/CerealStorageImplTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -21,6 +26,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -38,9 +46,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -74,47 +83,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build Kotlin_course.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.InventoryManagerTest.addExtraItem.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.InventoryManagerTest.addItem.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.InventoryManagerTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;Gradle.InventoryManagerTest.getItemCount.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.InventoryManagerTest.should throw exception.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ArraysListsSetsKt (1).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ArraysListsSetsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ConditionalOperatorsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.CyclesKt (1).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.CyclesKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.DataTypesAndOperatorsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.EncryptionModuleKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.EnumsAndJsonsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ItsTimeToTimeKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.JsonAndEnumKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.JsonKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.OperatorsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.PairsAndMapsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.PairsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.VariablesKt (1).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.VariablesKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Developing/Kotlin_course/src/main/kotlin/Main.kt&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build Kotlin_course.executor": "Run",
+    "Gradle.CerealStorageImplTest.Get more than you really have.executor": "Run",
+    "Gradle.CerealStorageImplTest.add extra cereal and get some back.executor": "Run",
+    "Gradle.CerealStorageImplTest.add four containers and get back exception.executor": "Run",
+    "Gradle.CerealStorageImplTest.addCereal.executor": "Run",
+    "Gradle.CerealStorageImplTest.bring a negative amount of cereal.executor": "Coverage",
+    "Gradle.CerealStorageImplTest.bring a new container to someone's place.executor": "Run",
+    "Gradle.CerealStorageImplTest.dont remove filled container.executor": "Run",
+    "Gradle.CerealStorageImplTest.executor": "Coverage",
+    "Gradle.CerealStorageImplTest.get amount if field doesnt exists.executor": "Coverage",
+    "Gradle.CerealStorageImplTest.get amount with overflow.executor": "Run",
+    "Gradle.CerealStorageImplTest.get cereal from non exist container.executor": "Run",
+    "Gradle.CerealStorageImplTest.get negative amount of cereal.executor": "Run",
+    "Gradle.CerealStorageImplTest.get space if field doesnt exists.executor": "Run",
+    "Gradle.CerealStorageImplTest.get space if field filled in.executor": "Run",
+    "Gradle.CerealStorageImplTest.getAmount.executor": "Run",
+    "Gradle.CerealStorageImplTest.getCereal.executor": "Run",
+    "Gradle.CerealStorageImplTest.getContainerCapacity.executor": "Run",
+    "Gradle.CerealStorageImplTest.getSpace.executor": "Run",
+    "Gradle.CerealStorageImplTest.getStorageCapacity.executor": "Run",
+    "Gradle.CerealStorageImplTest.mound the cereal end to end and don't get an exception.executor": "Run",
+    "Gradle.CerealStorageImplTest.remove container after work.executor": "Run",
+    "Gradle.CerealStorageImplTest.remove doesnt exists container.executor": "Run",
+    "Gradle.CerealStorageImplTest.removeContainer.executor": "Run",
+    "Gradle.CerealStorageImplTest.should not throw IllegalArgumentException if container capacity negative.executor": "Run",
+    "Gradle.CerealStorageImplTest.should throw IllegalArgumentException if container capacity negative.executor": "Run",
+    "Gradle.CerealStorageImplTest.testToString.executor": "Run",
+    "Gradle.InventoryManagerTest.addExtraItem.executor": "Run",
+    "Gradle.InventoryManagerTest.addItem.executor": "Run",
+    "Gradle.InventoryManagerTest.executor": "Coverage",
+    "Gradle.InventoryManagerTest.getItemCount.executor": "Run",
+    "Gradle.InventoryManagerTest.should throw exception.executor": "Run",
+    "Kotlin.ArraysListsSetsKt (1).executor": "Run",
+    "Kotlin.ArraysListsSetsKt.executor": "Run",
+    "Kotlin.ConditionalOperatorsKt.executor": "Run",
+    "Kotlin.CyclesKt (1).executor": "Run",
+    "Kotlin.CyclesKt.executor": "Run",
+    "Kotlin.DataTypesAndOperatorsKt.executor": "Run",
+    "Kotlin.EncryptionModuleKt.executor": "Run",
+    "Kotlin.EnumsAndJsonsKt.executor": "Run",
+    "Kotlin.ItsTimeToTimeKt.executor": "Run",
+    "Kotlin.JsonAndEnumKt.executor": "Run",
+    "Kotlin.JsonKt.executor": "Run",
+    "Kotlin.OperatorsKt.executor": "Run",
+    "Kotlin.PairsAndMapsKt.executor": "Debug",
+    "Kotlin.PairsKt.executor": "Run",
+    "Kotlin.VariablesKt (1).executor": "Run",
+    "Kotlin.VariablesKt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Developing/Kotlin_course/src/main/kotlin/Main.kt",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Developing\Kotlin_course\src\main\kotlin\Lessons" />
@@ -124,7 +159,11 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="ru.ilyamnl.homework" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.ilyamnl.homework" />
       <recent name="ru.ilyamnl.lessons" />
     </key>
   </component>
@@ -133,8 +172,8 @@
       <command value="VariablesKt" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.PairsAndMapsKt">
-    <configuration name="InventoryManagerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CerealStorageImplTest">
+    <configuration name="CerealStorageImplTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -147,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.ilyamnl.lessons.InventoryManagerTest&quot;" />
+            <option value="&quot;ru.ilyamnl.homework.CerealStorageImplTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,7 +197,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="InventoryManagerTest.addExtraItem" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CerealStorageImplTest.bring a new container to someone's place" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -171,7 +210,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.ilyamnl.lessons.InventoryManagerTest.addExtraItem&quot;" />
+            <option value="&quot;ru.ilyamnl.homework.CerealStorageImplTest.bring a new container to someone's place&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -182,7 +221,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="InventoryManagerTest.getItemCount" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CerealStorageImplTest.dont remove filled container" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -195,7 +234,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.ilyamnl.lessons.InventoryManagerTest.getItemCount&quot;" />
+            <option value="&quot;ru.ilyamnl.homework.CerealStorageImplTest.dont remove filled container&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -206,7 +245,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="InventoryManagerTest.should throw exception" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CerealStorageImplTest.remove doesnt exists container" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -219,7 +258,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.ilyamnl.lessons.InventoryManagerTest.should throw exception&quot;" />
+            <option value="&quot;ru.ilyamnl.homework.CerealStorageImplTest.remove doesnt exists container&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -230,20 +269,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="PairsAndMapsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.PairsAndMapsKt" />
-      <module name="Kotlin_course.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="CerealStorageImplTest.testToString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.ilyamnl.homework.CerealStorageImplTest.testToString&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.PairsAndMapsKt" />
-        <item itemvalue="Gradle.InventoryManagerTest" />
-        <item itemvalue="Gradle.InventoryManagerTest.getItemCount" />
-        <item itemvalue="Gradle.InventoryManagerTest.should throw exception" />
-        <item itemvalue="Gradle.InventoryManagerTest.addExtraItem" />
+        <item itemvalue="Gradle.CerealStorageImplTest" />
+        <item itemvalue="Gradle.CerealStorageImplTest.testToString" />
+        <item itemvalue="Gradle.CerealStorageImplTest.dont remove filled container" />
+        <item itemvalue="Gradle.CerealStorageImplTest.remove doesnt exists container" />
+        <item itemvalue="Gradle.CerealStorageImplTest.bring a new container to someone's place" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +340,9 @@
       <workItem from="1711952952707" duration="5556000" />
       <workItem from="1712031472825" duration="40000" />
       <workItem from="1712061823908" duration="15709000" />
-      <workItem from="1712139184512" duration="2111000" />
+      <workItem from="1712139184512" duration="3007000" />
+      <workItem from="1712234325393" duration="3456000" />
+      <workItem from="1712313027816" duration="9940000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1 - Variables.kt">
       <option name="closed" value="true" />
@@ -470,7 +528,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712078227795</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Lesson 7 - PairsAndMaps.kt">
+      <option name="closed" value="true" />
+      <created>1712141600743</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1712141600743</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,13 +572,16 @@
     <MESSAGE value="no more gitignorring workspace.xml" />
     <MESSAGE value="Homework 6 - ArraysListsSets.kt" />
     <MESSAGE value="Homework 6 - ArraysListsSets.kt&#10;Some improvements" />
-    <MESSAGE value="Lesson 7 - PairsAndMaps.kt" />
     <MESSAGE value="Homework 23 - EnumsAndJsons.kt" />
     <MESSAGE value="Homework 23 - EnumsAndJsons.kt&#10;Some improvements" />
     <MESSAGE value="Lesson 24 - InventoryManagerTest.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 24 - InventoryManagerTest.kt" />
+    <MESSAGE value="Lesson 7 - PairsAndMaps.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 7 - PairsAndMaps.kt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Kotlin_course$CerealStorageImplTest_get_amount_if_field_doesnt_exists.ic" NAME="CerealStorageImplTest.get amount if field doesnt exists Coverage Results" MODIFIED="1712320805771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Kotlin_course$InventoryManagerTest.ic" NAME="InventoryManagerTest Coverage Results" MODIFIED="1712077985094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Kotlin_course$CerealStorageImplTest_bring_a_negative_amount_of_cereal.ic" NAME="CerealStorageImplTest.bring a negative amount of cereal Coverage Results" MODIFIED="1712319820968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Kotlin_course$CerealStorageImplTest.ic" NAME="CerealStorageImplTest Coverage Results" MODIFIED="1712322983275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
