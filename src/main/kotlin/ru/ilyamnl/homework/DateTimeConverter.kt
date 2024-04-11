@@ -11,18 +11,21 @@ class DateTimeConverter {
 
     fun convertToDateTime(input: String): LocalDateTime {
 
-        when {
-            input.lowercase() == "today" -> {
-                return LocalDateTime.now().with(zeroTime)
+        return when(input.lowercase()) {
+            "today" -> {
+                LocalDateTime.now().with(zeroTime)
             }
-            input.lowercase() == "tomorrow" -> {
-                return LocalDateTime.now().plusDays(1).with(zeroTime)
+
+            "tomorrow" -> {
+                LocalDateTime.now().plusDays(1).with(zeroTime)
             }
-            input.lowercase() == "yesterday" -> {
-                return LocalDateTime.now().minusDays(1).with(zeroTime)
+
+            "yesterday" -> {
+                LocalDateTime.now().minusDays(1).with(zeroTime)
             }
+
             else -> {
-                return parseDate(input)
+                parseDate(input)
             }
         }
 
@@ -30,15 +33,19 @@ class DateTimeConverter {
 
     private fun parseDate(input: String): LocalDateTime {
         val today = LocalDate.now()
+
         val timeParser = { formatter: DateTimeFormatter ->
             LocalDateTime.of(today, LocalTime.parse(input, formatter))
         }
+
         val dateParser = { formatter: DateTimeFormatter ->
             LocalDateTime.of(LocalDate.parse(input, formatter), zeroTime)
         }
+
         val dateTimeParser = { formatter: DateTimeFormatter ->
             LocalDateTime.parse(input, formatter)
         }
+
         val parsers = mapOf(
             "HH:mm" to timeParser,
             "HH:mm:ss" to timeParser,
@@ -49,6 +56,7 @@ class DateTimeConverter {
             "d MMM yyyy, HH:mm" to dateTimeParser,
             "d MMM yyyy, HH:mm:ss" to dateTimeParser
         )
+
         for ((format, parser) in parsers) {
             try {
                 return parser(DateTimeFormatter.ofPattern(format))
