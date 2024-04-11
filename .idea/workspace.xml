@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Homework 24 - CerealStorageImplTest.kt&#10;Also created interface CerealStorage and class CerealStorageImpl">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/DataTimeConverter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/PhoneFormatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/Strings.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/homework/DataTimeConverterTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/lessons/PhoneFormatterTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/homework/CerealStorageImplTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/homework/CerealStorageImplTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/UnitTestsExamples.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/UnitTestsExamples.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +49,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
-        <option value="Kotlin Interface" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -61,12 +65,12 @@
     &quot;assignee&quot;: &quot;ilykamml&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ilykamml/Kotlin_lessons",
-    "accountId": "1831d2cd-5776-4f77-b422-05752bd74928"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ilykamml/Kotlin_lessons&quot;,
+    &quot;accountId&quot;: &quot;1831d2cd-5776-4f77-b422-05752bd74928&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -109,16 +113,19 @@
     "Gradle.CerealStorageImplTest.should not throw IllegalArgumentException if container capacity negative.executor": "Run",
     "Gradle.CerealStorageImplTest.should throw IllegalArgumentException if container capacity negative.executor": "Run",
     "Gradle.CerealStorageImplTest.testToString.executor": "Run",
+    "Gradle.DataTimeConverterTest.checkConverter.executor": "Run",
     "Gradle.InventoryManagerTest.addExtraItem.executor": "Run",
     "Gradle.InventoryManagerTest.addItem.executor": "Run",
     "Gradle.InventoryManagerTest.executor": "Coverage",
     "Gradle.InventoryManagerTest.getItemCount.executor": "Run",
     "Gradle.InventoryManagerTest.should throw exception.executor": "Run",
+    "Gradle.PhoneFormatterTest.formatPhoneNumber.executor": "Run",
     "Kotlin.ArraysListsSetsKt (1).executor": "Run",
     "Kotlin.ArraysListsSetsKt.executor": "Run",
     "Kotlin.ConditionalOperatorsKt.executor": "Run",
     "Kotlin.CyclesKt (1).executor": "Run",
     "Kotlin.CyclesKt.executor": "Run",
+    "Kotlin.DataTimeConverterKt.executor": "Run",
     "Kotlin.DataTypesAndOperatorsKt.executor": "Run",
     "Kotlin.EncryptionModuleKt.executor": "Run",
     "Kotlin.EnumsAndJsonsKt.executor": "Run",
@@ -128,6 +135,7 @@
     "Kotlin.OperatorsKt.executor": "Run",
     "Kotlin.PairsAndMapsKt.executor": "Debug",
     "Kotlin.PairsKt.executor": "Run",
+    "Kotlin.StringsKt.executor": "Run",
     "Kotlin.VariablesKt (1).executor": "Run",
     "Kotlin.VariablesKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -138,6 +146,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Ilya/Downloads/Key-Promoter-X-2023.3.0.zip",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -175,7 +184,7 @@
       <command value="VariablesKt" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CerealStorageImplTest">
+  <component name="RunManager" selected="Kotlin.DataTimeConverterKt">
     <configuration name="CerealStorageImplTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -200,7 +209,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CerealStorageImplTest.bring a new container to someone's place" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DataTimeConverterTest.checkConverter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -213,7 +222,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.ilyamnl.homework.CerealStorageImplTest.bring a new container to someone's place&quot;" />
+            <option value="&quot;ru.ilyamnl.homework.DataTimeConverterTest.checkConverter&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -224,7 +233,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CerealStorageImplTest.dont remove filled container" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PhoneFormatterTest.formatPhoneNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -237,7 +246,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.ilyamnl.homework.CerealStorageImplTest.dont remove filled container&quot;" />
+            <option value="&quot;ru.ilyamnl.lessons.PhoneFormatterTest.formatPhoneNumber&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -248,61 +257,27 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CerealStorageImplTest.remove doesnt exists container" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.ilyamnl.homework.CerealStorageImplTest.remove doesnt exists container&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="DataTimeConverterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.DataTimeConverterKt" />
+      <module name="Kotlin_course.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="CerealStorageImplTest.testToString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.ilyamnl.homework.CerealStorageImplTest.testToString&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="StringsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.lessons.StringsKt" />
+      <module name="Kotlin_course.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.DataTimeConverterKt" />
+        <item itemvalue="Gradle.DataTimeConverterTest.checkConverter" />
+        <item itemvalue="Kotlin.StringsKt" />
+        <item itemvalue="Gradle.PhoneFormatterTest.formatPhoneNumber" />
         <item itemvalue="Gradle.CerealStorageImplTest" />
-        <item itemvalue="Gradle.CerealStorageImplTest.testToString" />
-        <item itemvalue="Gradle.CerealStorageImplTest.dont remove filled container" />
-        <item itemvalue="Gradle.CerealStorageImplTest.remove doesnt exists container" />
-        <item itemvalue="Gradle.CerealStorageImplTest.bring a new container to someone's place" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +322,14 @@
       <workItem from="1712139184512" duration="3007000" />
       <workItem from="1712234325393" duration="3456000" />
       <workItem from="1712313027816" duration="10551000" />
-      <workItem from="1712329330300" duration="6839000" />
+      <workItem from="1712329330300" duration="7314000" />
+      <workItem from="1712573849218" duration="9000" />
+      <workItem from="1712573942400" duration="26000" />
+      <workItem from="1712588801784" duration="4187000" />
+      <workItem from="1712662778478" duration="1878000" />
+      <workItem from="1712759362111" duration="4114000" />
+      <workItem from="1712833252397" duration="50000" />
+      <workItem from="1712833308730" duration="6968000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1 - Variables.kt">
       <option name="closed" value="true" />
@@ -549,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712323128076</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Homework 24 - CerealStorageImplTest.kt&#10;Also created interface CerealStorage and class CerealStorageImpl">
+      <option name="closed" value="true" />
+      <created>1712336693071</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1712336693071</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

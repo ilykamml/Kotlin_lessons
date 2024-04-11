@@ -28,4 +28,25 @@ package ru.ilyamnl.lessons
 // assertInstanceOf - объект должен быть определённого типа
 // assertTimeout - указываем duration и передаём функцию. Если исполняется дольше таймаута - вызовет исключение
 
-//
+// Параметризованные тесты
+//@ParameterizedTest
+//@ValueSource(strings = ["test@example.com", "valid+email@example.uk.co"])
+// fun `valid emails should return true`(email: String) = assertTrue(validator.isValid(email))
+
+
+//@MethodSource("emailSource") - метод должен быть статичный (companion object -> @JvmStatic -> fun emailSource())
+
+// class MyClass {
+// companion object {
+// @JvmStatic
+// fun mySource() = listOf(Arguments.of("string", true), Arguments.of("string2", false))
+//}
+//@ParameterizedTest
+//@MethodSource("mySource")
+//fun test(string: String, valid: Boolean) = assertEquals(isValid, TestedClass.method(string))
+
+//@CsvSource - передаём туда табличку аргументов
+//@EnumSource(CoffeeType::class) - принимает в качестве аргумента тип enum
+//@CsvFileSource - передаём туда путь до файла с табличкой (или нескольких файлов)
+// И многие другие
+
