@@ -206,7 +206,7 @@ fun getTextFromBraces(input: String): List<String> {
 
     val resultList = bracesMap.map { input.substring(it.key, it.value+1) }
 
-    return resultList
+    return resultList // done lesson
 
 }
 
