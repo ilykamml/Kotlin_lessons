@@ -1,6 +1,6 @@
 package ru.ilyamnl.homework
 
-class CerealStorageImpl(containerCapacityArg: Float, storageCapacityArg: Float) : CerealStorage {
+class CerealStorageOldImplOld(containerCapacityArg: Float, storageCapacityArg: Float) : CerealStorageOld {
 
     /**
      * Map контейнеров

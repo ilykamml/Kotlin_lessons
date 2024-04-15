@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Homework 24 - CerealStorageImplTest.kt&#10;Also created interface CerealStorage and class CerealStorageImpl">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/DataTimeConverter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/PhoneFormatter.kt" afterDir="false" />
+    <list default="true" id="d2687238-9bdb-43cf-920c-1c357d70d0a4" name="Changes" comment="Homework 25 - DateTimeConverterTest.kt&#10;Also created DateTimeConverter.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/CerealStorage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/Mocks.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/Strings.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/homework/DataTimeConverterTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/lessons/PhoneFormatterTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/lessons/CerealCookFacadeTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/lessons/FileProcessorTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/UnitTestsExamples.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/lessons/UnitTestsExamples.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/CerealStorage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/CerealStorageOld.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/CerealStorageImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/ilyamnl/homework/CerealStorageOldImplOld.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/homework/CerealStorageImplTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/ru/ilyamnl/homework/CerealStorageOldImplOldTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +52,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -84,84 +87,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build Kotlin_course.executor": "Run",
-    "Gradle.CerealStorageImplTest.Get more than you really have.executor": "Run",
-    "Gradle.CerealStorageImplTest.add extra cereal and get some back.executor": "Run",
-    "Gradle.CerealStorageImplTest.add four containers and get back exception.executor": "Run",
-    "Gradle.CerealStorageImplTest.addCereal.executor": "Run",
-    "Gradle.CerealStorageImplTest.bring a negative amount of cereal.executor": "Coverage",
-    "Gradle.CerealStorageImplTest.bring a new container to someone's place.executor": "Run",
-    "Gradle.CerealStorageImplTest.dont remove filled container.executor": "Run",
-    "Gradle.CerealStorageImplTest.executor": "Run",
-    "Gradle.CerealStorageImplTest.get amount if field doesnt exists.executor": "Coverage",
-    "Gradle.CerealStorageImplTest.get amount with overflow.executor": "Run",
-    "Gradle.CerealStorageImplTest.get cereal from non exist container.executor": "Run",
-    "Gradle.CerealStorageImplTest.get negative amount of cereal.executor": "Run",
-    "Gradle.CerealStorageImplTest.get space if field doesnt exists.executor": "Run",
-    "Gradle.CerealStorageImplTest.get space if field filled in.executor": "Run",
-    "Gradle.CerealStorageImplTest.getAmount.executor": "Run",
-    "Gradle.CerealStorageImplTest.getCereal.executor": "Run",
-    "Gradle.CerealStorageImplTest.getContainerCapacity.executor": "Run",
-    "Gradle.CerealStorageImplTest.getSpace.executor": "Run",
-    "Gradle.CerealStorageImplTest.getStorageCapacity.executor": "Run",
-    "Gradle.CerealStorageImplTest.mound the cereal end to end and don't get an exception.executor": "Run",
-    "Gradle.CerealStorageImplTest.remove container after work.executor": "Run",
-    "Gradle.CerealStorageImplTest.remove doesnt exists container.executor": "Run",
-    "Gradle.CerealStorageImplTest.removeContainer.executor": "Run",
-    "Gradle.CerealStorageImplTest.should not throw IllegalArgumentException if container capacity negative.executor": "Run",
-    "Gradle.CerealStorageImplTest.should throw IllegalArgumentException if container capacity negative.executor": "Run",
-    "Gradle.CerealStorageImplTest.testToString.executor": "Run",
-    "Gradle.DataTimeConverterTest.checkConverter.executor": "Run",
-    "Gradle.InventoryManagerTest.addExtraItem.executor": "Run",
-    "Gradle.InventoryManagerTest.addItem.executor": "Run",
-    "Gradle.InventoryManagerTest.executor": "Coverage",
-    "Gradle.InventoryManagerTest.getItemCount.executor": "Run",
-    "Gradle.InventoryManagerTest.should throw exception.executor": "Run",
-    "Gradle.PhoneFormatterTest.formatPhoneNumber.executor": "Run",
-    "Kotlin.ArraysListsSetsKt (1).executor": "Run",
-    "Kotlin.ArraysListsSetsKt.executor": "Run",
-    "Kotlin.ConditionalOperatorsKt.executor": "Run",
-    "Kotlin.CyclesKt (1).executor": "Run",
-    "Kotlin.CyclesKt.executor": "Run",
-    "Kotlin.DataTimeConverterKt.executor": "Run",
-    "Kotlin.DataTypesAndOperatorsKt.executor": "Run",
-    "Kotlin.EncryptionModuleKt.executor": "Run",
-    "Kotlin.EnumsAndJsonsKt.executor": "Run",
-    "Kotlin.ItsTimeToTimeKt.executor": "Run",
-    "Kotlin.JsonAndEnumKt.executor": "Run",
-    "Kotlin.JsonKt.executor": "Run",
-    "Kotlin.OperatorsKt.executor": "Run",
-    "Kotlin.PairsAndMapsKt.executor": "Debug",
-    "Kotlin.PairsKt.executor": "Run",
-    "Kotlin.StringsKt.executor": "Run",
-    "Kotlin.VariablesKt (1).executor": "Run",
-    "Kotlin.VariablesKt.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ilya/Downloads/Key-Promoter-X-2023.3.0.zip",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Developing/Kotlin_course/src/main/kotlin/Main.kt",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build Kotlin_course.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealCookFacadeTest.check cereal in cookware.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealCookFacadeTest.check cereals in cookware.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealCookFacadeTest.check water in cookware.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealCookFacadeTest.cook a multi porridge.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealCookFacadeTest.do a porridge.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.Get more than you really have.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.add extra cereal and get some back.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.add four containers and get back exception.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.addCereal.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.bring a negative amount of cereal.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.CerealStorageImplTest.bring a new container to someone's place.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.dont remove filled container.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.get amount if field doesnt exists.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.CerealStorageImplTest.get amount with overflow.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.get cereal from non exist container.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.get negative amount of cereal.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.get space if field doesnt exists.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.get space if field filled in.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.getAmount.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.getCereal.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.getContainerCapacity.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.getSpace.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.getStorageCapacity.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.mound the cereal end to end and don't get an exception.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.remove container after work.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.remove doesnt exists container.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.removeContainer.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.should not throw IllegalArgumentException if container capacity negative.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.should throw IllegalArgumentException if container capacity negative.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CerealStorageImplTest.testToString.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DataTimeConverterTest.checkConverter.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DataTimeConverterTest.checkException.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DataTimeConverterTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FileProcessorTest.test processFile with mocked content.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.InventoryManagerTest.addExtraItem.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.InventoryManagerTest.addItem.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.InventoryManagerTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.InventoryManagerTest.getItemCount.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.InventoryManagerTest.should throw exception.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PhoneFormatterTest.formatPhoneNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ArraysListsSetsKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ArraysListsSetsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ConditionalOperatorsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CyclesKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CyclesKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.DataTimeConverterKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.DataTypesAndOperatorsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.EncryptionModuleKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.EnumsAndJsonsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ItsTimeToTimeKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.JsonAndEnumKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.JsonKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OperatorsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.PairsAndMapsKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.PairsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.StringsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.VariablesKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.VariablesKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ilya/Downloads/Key-Promoter-X-2023.3.0.zip&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Developing/Kotlin_course/src/main/kotlin/Main.kt&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "kotlin-gradle-user-dirs": [
-      "C:\\Users\\Ilya\\.gradle"
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;C:\\Users\\Ilya\\.gradle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Developing\Kotlin_course\src\main\kotlin\Lessons" />
@@ -175,8 +186,8 @@
       <recent name="ru.ilyamnl.homework" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="ru.ilyamnl.homework" />
       <recent name="ru.ilyamnl.lessons" />
+      <recent name="ru.ilyamnl.homework" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -184,8 +195,8 @@
       <command value="VariablesKt" />
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.DataTimeConverterKt">
-    <configuration name="CerealStorageImplTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Kotlin.StringsKt">
+    <configuration name="CerealCookFacadeTest.check cereal in cookware" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -198,7 +209,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.ilyamnl.homework.CerealStorageImplTest&quot;" />
+            <option value="&quot;ru.ilyamnl.lessons.CerealCookFacadeTest.check cereal in cookware&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,7 +220,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DataTimeConverterTest.checkConverter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CerealCookFacadeTest.check cereals in cookware" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -222,7 +233,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.ilyamnl.homework.DataTimeConverterTest.checkConverter&quot;" />
+            <option value="&quot;ru.ilyamnl.lessons.CerealCookFacadeTest.check cereals in cookware&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -233,7 +244,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="PhoneFormatterTest.formatPhoneNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CerealCookFacadeTest.check water in cookware" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -246,7 +257,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.ilyamnl.lessons.PhoneFormatterTest.formatPhoneNumber&quot;" />
+            <option value="&quot;ru.ilyamnl.lessons.CerealCookFacadeTest.check water in cookware&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -257,12 +268,29 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DataTimeConverterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.homework.DataTimeConverterKt" />
-      <module name="Kotlin_course.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="CerealCookFacadeTest.cook a multi porridge" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.ilyamnl.lessons.CerealCookFacadeTest.cook a multi porridge&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="StringsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.ilyamnl.lessons.StringsKt" />
@@ -273,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.DataTimeConverterKt" />
-        <item itemvalue="Gradle.DataTimeConverterTest.checkConverter" />
         <item itemvalue="Kotlin.StringsKt" />
-        <item itemvalue="Gradle.PhoneFormatterTest.formatPhoneNumber" />
-        <item itemvalue="Gradle.CerealStorageImplTest" />
+        <item itemvalue="Gradle.CerealCookFacadeTest.check cereals in cookware" />
+        <item itemvalue="Gradle.CerealCookFacadeTest.cook a multi porridge" />
+        <item itemvalue="Gradle.CerealCookFacadeTest.check cereal in cookware" />
+        <item itemvalue="Gradle.CerealCookFacadeTest.check water in cookware" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +357,10 @@
       <workItem from="1712662778478" duration="1878000" />
       <workItem from="1712759362111" duration="4114000" />
       <workItem from="1712833252397" duration="50000" />
-      <workItem from="1712833308730" duration="6968000" />
+      <workItem from="1712833308730" duration="11843000" />
+      <workItem from="1712851299934" duration="1855000" />
+      <workItem from="1713164672149" duration="768000" />
+      <workItem from="1713166475624" duration="12644000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 1 - Variables.kt">
       <option name="closed" value="true" />
@@ -539,7 +570,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712336693071</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Lesson 25 - PhoneFormatterTest.kt&#10;Also created PhoneFormatter.kt">
+      <option name="closed" value="true" />
+      <created>1712844424385</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1712844424385</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Homework 25 - DateTimeConverterTest.kt&#10;Also created DateTimeConverter.kt">
+      <option name="closed" value="true" />
+      <created>1712844481113</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1712844481113</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Homework 25 - DateTimeConverterTest.kt&#10;Also created DateTimeConverter.kt">
+      <option name="closed" value="true" />
+      <created>1712844588645</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1712844588645</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,7 +635,13 @@
     <MESSAGE value="Lesson 24 - InventoryManagerTest.kt" />
     <MESSAGE value="Lesson 7 - PairsAndMaps.kt" />
     <MESSAGE value="Homework 24 - CerealStorageImplTest.kt&#10;Also created interface CerealStorage and class CerealStorageImpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 24 - CerealStorageImplTest.kt&#10;Also created interface CerealStorage and class CerealStorageImpl" />
+    <MESSAGE value="Lesson 25 - PhoneFormatterTest.kt&#10;Also created PhoneFormatter.kt" />
+    <MESSAGE value="Homework 25 - DateTimeConverterTest.kt&#10;Also created DateTimeConverter.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 25 - DateTimeConverterTest.kt&#10;Also created DateTimeConverter.kt" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kotlin_course$CerealStorageImplTest_get_amount_if_field_doesnt_exists.ic" NAME="CerealStorageImplTest.get amount if field doesnt exists Coverage Results" MODIFIED="1712320805771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

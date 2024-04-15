@@ -1,6 +1,6 @@
 package ru.ilyamnl.homework
 
-interface CerealStorage {
+interface CerealStorageOld {
 
     /**
      * Объём одного контейнера

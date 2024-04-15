@@ -3,8 +3,8 @@ package ru.ilyamnl.homework
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions
 
-class CerealStorageImplTest {
-    private val defaultContainerManager: CerealStorage = CerealStorageImpl(20f, 60f)
+class CerealStorageOldImplOldTest {
+    private val defaultContainerManager: CerealStorageOld = CerealStorageOldImplOld(20f, 60f)
 
     @Test
     fun getContainerCapacity() {
@@ -17,12 +17,12 @@ class CerealStorageImplTest {
     @Test
     fun `should throw IllegalArgumentException if container capacity negative`() {
         Assertions.assertThrows(IllegalArgumentException::class.java)
-        { CerealStorageImpl(-20f, 60f) }
+        { CerealStorageOldImplOld(-20f, 60f) }
     }
 
     @Test
     fun `should not throw IllegalArgumentException if container capacity negative`() {
-        Assertions.assertDoesNotThrow { CerealStorageImpl(0f, 60f) }
+        Assertions.assertDoesNotThrow { CerealStorageOldImplOld(0f, 60f) }
     }
 
     @Test
@@ -36,12 +36,12 @@ class CerealStorageImplTest {
     @Test
     fun `should throw IllegalArgumentException if storage capacity lower than storage capacity`() {
         Assertions.assertThrows(IllegalArgumentException::class.java)
-        { CerealStorageImpl(60f, 20f) }
+        { CerealStorageOldImplOld(60f, 20f) }
     }
 
     @Test
     fun `should not throw IllegalArgumentException if storage capacity lower than storage capacity`() {
-        Assertions.assertDoesNotThrow { CerealStorageImpl(20f, 20f) }
+        Assertions.assertDoesNotThrow { CerealStorageOldImplOld(20f, 20f) }
     }
 
     @Test
